@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 🏠 Fallyx Dashboard Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Fallyx Dashboard**! This project includes two types of dashboards designed to improve safety and management in retirement homes:
 
-## Available Scripts
+- **Management Dashboard**: Enables managers to monitor falls, compliance, and other critical metrics across multiple homes.
+- **Individual Dashboard**: Provides residents and their caretakers with a personalized view to track and update resident-specific data.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🎨 Frontend Development
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Built an **intuitive and user-friendly interface** with dynamic data visualizations.
+- Designed two main views:
+  - **Management Dashboard**: Displays global metrics, graphs, and aggregated data (e.g., falls, injuries, non-compliance incidents).
+  - **Individual Dashboard**: Offers a personalized table for tracking and updating fall-related incidents.
 
-### `npm test`
+### 🔗 Backend Integration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Connected the dashboard to **Firebase** for secure storage and real-time data retrieval.
+- Ensured robust handling of sensitive **resident and management data**.
 
-### `npm run build`
+### 💅 CSS Optimization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Applied detailed CSS styling to create a **responsive and visually appealing design**.
+- Ensured layouts are optimized for **readability and accessibility** on all devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔒 User Login and Authentication
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Implemented a **secure login system** to restrict access to authorized users only.
+- **Role-based access control**:
+  - **Management-level**: Access to aggregated data and analytics.
+  - **Individual-level**: Access to specific resident information.
 
-### `npm run eject`
+### 🔐 Security
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Followed **industry standards** for securing data transmission and storage.
+- Used **authentication tokens** for user sessions.
+- Ensured compliance with **data privacy regulations** for sensitive resident information.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Developer Notes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- The dashboard **dynamically pulls data** from Firebase in real-time, updating metrics and charts without page reloads.
+- The **management dashboard** allows administrators to:
+  - Download data as **CSV or PDF** for further analysis. 📄
+- The **individual dashboard** features:
+  - Editable tables for tracking falls, with seamless synchronization to Firebase. ✍️
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+- Node.js and npm installed ✅
+- Firebase project set up and configured 🔥
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+   git clone https://github.com/WayneWei228/demo-dashboard.git
+   cd fallyx-dashboard
+```
 
-### Making a Progressive Web App
+2. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+3. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+4. Open your browser and navigate to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+http://localhost:3000
+```
 
-### `npm run build` fails to minify
+## 💡 Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 🌍 **Add multi-language support**: Accommodate diverse user groups with multilingual options.
+- 🔔 **Implement notifications and alerts**: Provide real-time updates and critical event alerts.
+- 📊 **Integrate AI-powered analytics**: Offer predictive insights on fall incidents.
+- 📱 **Develop mobile-friendly enhancements**: Improve accessibility and usability on small screens.
+- 📑 **Enable custom reporting**: Add advanced filtering and export options for management dashboards.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software as long as proper credit is given.
